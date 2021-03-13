@@ -1,0 +1,60 @@
+public class algoritme {
+
+
+    public static void main(String[]args){
+
+        ArrayList<String> object=new ArrayList<>();
+
+        object.add("Une jom Rion Hasolli");
+
+        object.add("Punoj si Software Developer");
+
+        object.add("Jetoj ne prishtine");
+
+        object.add("Vendi i lindjes:Irlande");
+
+        ArrayList<Integer> object1=new ArrayList<>();
+
+        System.out.println("Mosha:");
+        object1.add(19);
+
+        System.out.println("viti i lindjes:");
+
+        object1.add(2002);
+
+        for(int p:object1){
+
+            System.out.println(object1);
+        }
+
+        for (String p1:object) {
+
+            System.out.println(p1);
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
